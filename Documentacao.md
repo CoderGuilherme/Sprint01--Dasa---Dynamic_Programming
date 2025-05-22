@@ -1,11 +1,11 @@
 
-# 📘 Documentação do Sistema de Gerenciamento de Exames
+# Documentação do Sistema de Gerenciamento de Exames
 
 Este sistema gerencia exames médicos de pacientes, permitindo o **cadastro**, **consulta**, **exclusão** e **visualização de históricos**. Também possui controle de **fila de espera para análise**, com diferentes níveis de prioridade (Alta, Média e Baixa).
 
 ---
 
-## 📂 Estrutura de Dados
+## Estrutura de Dados
 
 ```python
 exames = {
@@ -30,7 +30,7 @@ exames = {
 
 ---
 
-## ⚙️ Funções do Sistema
+## Funções do Sistema
 
 ### `gerar_id_exame()`
 Gera um ID único de 4 caracteres para cada exame utilizando `uuid`.
@@ -92,7 +92,7 @@ Retorna os `n` exames mais recentes de um paciente com base na data. Usa **inser
 
 ---
 
-## 📑 Fila de Espera para Análise
+## Fila de Espera para Análise
 
 ### Estrutura
 ```python
@@ -117,7 +117,7 @@ Exibe o conteúdo atual das filas de análise separadas por prioridade.
 
 ---
 
-## 📦 Requisitos de Pacotes
+## Requisitos de Pacotes
 
 Certifique-se de instalar os pacotes necessários:
 
@@ -135,7 +135,7 @@ pip install tabulate
 
 ---
 
-## 🧪 Exemplos de Uso
+## Exemplos de Uso
 
 ```python
 inserir_exame("001", "Maria", "2025-05-21", "Osso", 10, 5, 2, 9.8, 4.9, 2.1)
